@@ -13,12 +13,7 @@
 # limitations under the License.
 
 import main
-
-
-def test_index():
-    main.app.testing = True
-    client = main.app.test_client()
-
-    r = client.get('/')
-    assert r.status_code == 200
-    assert 'Hello World' in r.data.decode('utf-8')
+a=5
+b=5
+sum=a+b
+print(sum)
