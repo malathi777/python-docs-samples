@@ -29,7 +29,7 @@ def findLen(str):
     return counter 
   
 str = "geeks"
-print(findLen(str)
+print(findLen(str))
 
 
 if __name__ == '__main__':
