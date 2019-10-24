@@ -24,7 +24,10 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hello World!'
+    a=5
+    b=5
+    sum=a+b
+    return sum
 
 
 if __name__ == '__main__':
