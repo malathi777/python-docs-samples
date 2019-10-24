@@ -22,9 +22,14 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def hello():
-    """Return a friendly HTTP greeting."""
-    return 'Hello World!'
+def findLen(str): 
+    counter = 0
+    while str[counter:]: 
+        counter += 1
+    return counter 
+  
+str = "geeks"
+print(findLen(str)
 
 
 if __name__ == '__main__':
